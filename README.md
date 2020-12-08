@@ -6,4 +6,4 @@
 
 ![SpotMicro-Robot's github stats](https://github-readme-stats.vercel.app/api?username=pigzzz8815&show_icons=true)
 
-[![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=pigzzz8815)](https://solved.ac/pigzzz8815)
+[![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=pigzzz8815)](https://solved.ac/intelligent-robot-smu)
