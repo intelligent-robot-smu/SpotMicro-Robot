@@ -4,4 +4,4 @@
 
 ###  프로젝트 참여자 : 이해선, 이성민
 
-![Kinetic27's github stats](https://github-readme-stats.vercel.app/api?username=SpotMicro&show_icons=true)
+![SpotMicro-Robot's github stats](https://github-readme-stats.vercel.app/api?username=pigzzz8815&show_icons=true)
