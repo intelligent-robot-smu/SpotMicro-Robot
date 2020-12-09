@@ -6,4 +6,6 @@
 
 ![SpotMicro-Robot's github stats](https://github-readme-stats.vercel.app/api?username=pigzzz8815&show_icons=true)
 
+![SpotMicro-Robot's github stats](https://github-readme-stats.vercel.app/api?username=HaeSeon&show_icons=true)
+
 [![solved.ac tier](http://mazassumnida.wtf/api/generate_badge?boj=intelligent-robot-smu)](https://solved.ac/intelligent-robot-smu)
