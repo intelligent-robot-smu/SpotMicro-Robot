@@ -41,9 +41,25 @@ ubuntu 초기 비밀번호 : ubuntu 로 접속한다.
 
 4. swap memory
 
+```sudo dphys-swapfile swapoff```
 
+```sudo nano /etc/dphys-swapfile``` 와 같은 명령어로/etc/dphys-swapfile 파일에 들어가서 ```CONF_SWAPSIZE=1024``` 로 편집
 
+```sudo dphys-swapfile setup```
 
+```sudo dphys-swapfile swapon```
+
+5. install catkin-tools
+
+```$ sudo apt-get update```
+
+```$ sudo apt-get install python-catkin-tools```
+
+catkin-tools document : https://catkin-tools.readthedocs.io/en/latest/installing.html
+
+catkin-ws 폴더에서 
+
+```catkin_make -DCMAKE_BUILD_TYPE=Release```
 
 
 
