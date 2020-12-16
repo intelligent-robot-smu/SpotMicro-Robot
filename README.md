@@ -61,7 +61,13 @@ catkin-ws 폴더에서
 
 ```catkin_make -DCMAKE_BUILD_TYPE=Release```
 
+## 서보 컨트롤
 
+1. i2cpwm_board : ```rosrun i2cpwm_board i2cpwm_board``` 를 실행시킨다.
+
+2. keyboard 활성화 : ```rosrun servo_move_keyboard servoMoveKeyboard.py```
+
+3. 활성화키 명령 : 위의 코드로 
 
 
 
