@@ -67,9 +67,9 @@ catkin-ws 폴더에서
 
 2. keyboard 활성화 : ```rosrun servo_move_keyboard servoMoveKeyboard.py```
 
-3. 활성화키 명령 : 위의 코드로 
+3. 활성화키 명령 :  
 
-
+<img width="518" alt="2" src="https://user-images.githubusercontent.com/18053479/101970329-1b2d7d80-3c6d-11eb-8e08-081f2fcf5230.PNG">
 
 
 
