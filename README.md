@@ -69,7 +69,7 @@ catkin-ws 폴더에서
 
 3. 활성화키 명령 :  
 
-<img src="https://user-images.githubusercontent.com/58153959/102410776-60b6c580-4034-11eb-84e8-18272cf93609.png" width="90%"></img>
+<img width="352" alt="3" src="https://user-images.githubusercontent.com/58153959/102410776-60b6c580-4034-11eb-84e8-18272cf93609.png" width="90%"></img>
 
 
 
