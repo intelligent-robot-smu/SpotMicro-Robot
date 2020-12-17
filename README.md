@@ -5,12 +5,17 @@ SpotMicro-Robot's report.
 
 ## What is Spot Micro Robot?  
 
+open source robot으로 4족보행로봇이다. 앉기, 서기, 각도제어, 걷기를 할 수 있다. 
 
 
 
 ## 사용 도구 및 실행환경
 
 raspberry pi 2B
+ubuntu 16.04
+ROS 프레임워크
+C++
+Python
 
 
 ## 하드웨어 부품
@@ -168,6 +173,11 @@ submodule을 업데이트한다는 서브모듈의 변경사항을 업데이트�
 ```catkin build```
 
 빌드시 이미 build 폴더가 있다는 에러메세지가 나오면 작업공간을 clean 해준다. 
+
+build가 완료되면 다음과 같은 화면이 뜬다. 
+
+![sdfsd](https://user-images.githubusercontent.com/18053479/102469198-cedfa480-4095-11eb-9fbe-fae8a6fd9da0.jpg)
+
 
 
 
