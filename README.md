@@ -11,11 +11,11 @@ open source robot으로 4족보행로봇이다. 앉기, 서기, 각도제어, �
 
 ## 사용 도구 및 실행환경
 
-raspberry pi 2B
-ubuntu 16.04
-ROS 프레임워크
-C++
-Python
+* raspberry pi 2B
+* ubuntu 16.04
+* ROS 프레임워크
+* C++
+* Python
 
 
 ## 하드웨어 부품
