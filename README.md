@@ -1,12 +1,17 @@
 # SpotMicro-Robot [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fpigzzz8815&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-## SpotMicro-Robot's report.
+SpotMicro-Robot's report.
 
-## 개요
+
+## What is Spot Micro Robot?  
+
+이성민
+
 
 ## 사용 도구 및 실행환경
 
 raspberry pi 2B
+
 
 
 ## 소프트웨어 설치
@@ -16,6 +21,7 @@ https://downloads.ubiquityrobotics.com/
 ROS가 설치된 Ubuntu 16.04 기반의 pi image이다. 
 
 **_ROS?_**
+
 개념 적기
 
 
@@ -119,7 +125,12 @@ spot micro 오픈소스를 git에서 clone 하여 라즈베리파이에 다운�
 빌드시 이미 build 폴더가 있다는 에러메세지가 나오면 작업공간을 clean 해준다. 
 
 
+
 ## 서보 컨트롤
+
+
+서보 1개 실행해본거 추가
+
 
 1. i2cpwm_board : ```rosrun i2cpwm_board i2cpwm_board``` 를 실행시킨다.
 
@@ -130,9 +141,17 @@ spot micro 오픈소스를 git에서 clone 하여 라즈베리파이에 다운�
 <img width="518" alt="3" src="https://user-images.githubusercontent.com/58153959/102410776-60b6c580-4034-11eb-84e8-18272cf93609.png" width="90%"></img>
 
 
+## 하드웨어 - 외관(3D 프린팅)
+
+뭐뭐필요한지..? + 조립
 
 
+## 하드웨어 - 부품
 
+서보, 베터리 같은 애들 필요한 목록 + 조립
+
+
+## 로봇 4족보행 시키기 
 
 
 
