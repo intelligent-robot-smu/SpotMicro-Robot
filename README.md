@@ -25,7 +25,8 @@ Python
 
 ## 소프트웨어 설치
 
-1. pi image download
+
+### 1. pi image download
 https://downloads.ubiquityrobotics.com/
 ROS가 설치된 Ubuntu 16.04 기반의 pi image이다. 
 
@@ -51,7 +52,8 @@ https://www.7-zip.org/ 에서 본인 Pc에 맞는 버전을 다운로드한다.
 
 이제 sd카드에 라즈베리파이와 ROS사용할 준비가 되었다.
 
-2. 라즈베리파이 부팅
+
+### 2. 라즈베리파이 부팅
 
 sd카드를 라즈베리파이에 삽입한다. 
 모니터, HDMI, 마이크로 5핀, usb 마우스, 키보드 각각을 라즈베리파이 보드에 연결 후 부팅한다. 
@@ -59,9 +61,11 @@ ubuntu 초기 비밀번호 : ubuntu 로 접속한다.
 
 ROS가 포함된 파일을 받았기 때문에 뒤에 사용될 catkin_ws (catkin 작업 환경) 폴더가 있는것을 볼 수 있다. 
 
-3. 원격 접속
 
-4. swap memory
+### 3. 원격 접속
+
+
+### 4. swap memory
 
 **_swap memory?_**
 
@@ -80,7 +84,8 @@ but, 라즈베리파이의 sd카드 수명저하가 있을 수 있다.
 ```sudo dphys-swapfile swapon```    스왑을 시작한다. 
 
 
-5. install catkin-tools
+
+### 5. install catkin-tools
 
 **_catkin?_**
 Catkin이란 rosbuild의 개선된 후속제품으로 ROS의 공식적인 Low level build system 이다. 
@@ -111,7 +116,8 @@ catkin-tools를 사용하지 않고 ROS에 내장된 catkin_make를 사용할 �
 
 ```catkin_make -DCMAKE_BUILD_TYPE=Release``` 
 
-6. source code download
+
+### 6. source code download
 
 ```git clone https://github.com/mike4192/spotMicro.git``` 
 
@@ -166,7 +172,8 @@ submodule을 업데이트한다는 서브모듈의 변경사항을 업데이트�
 이 에러는 git이 서버에서 repository를 다운도르할 때 공개키를 못찾아서 발생하는 것이다. 이 공개키를 찾기 위해 공개 URL로 바꿔주는 작업을 한 것이다. 
 
     
-7. build
+
+### 7. build
 
 ```sudo apt-get install libi2c-dev```
 
@@ -185,10 +192,9 @@ build가 완료되면 다음과 같은 화면이 뜬다.
 
 ## 서보 컨트롤
 
-예시로 1개의 서보를 실행시켜본다. 
+### 라즈베리파이와 서보모터 연결
 
-1. 라즈베리파이와 서보모터 연결
-
+우선 예시로 1개의 서보를 실행시켜본다. 
 
 **_PWN?_**
 펄스의 폭을 조절하는 제어방법이다. 
@@ -215,9 +221,15 @@ build가 완료되면 다음과 같은 화면이 뜬다.
 
 ```sudo python gpio_pwm_servo_motor.py```를 실행하면 서보모터가 움직인다. 
 
-서보 연결 구성도
 
-서보 컨트롤 설명
+<img width="700" alt="servo" src="https://user-images.githubusercontent.com/18053479/102475764-a0fe5e00-409d-11eb-88c9-fc87e2aa0e59.gif">
+
+
+
+### 서보 연결 구성도
+
+
+### 서보 컨트롤 설명
 
 1. i2cpwm_board : ```rosrun i2cpwm_board i2cpwm_board``` 를 실행시킨다.
 
