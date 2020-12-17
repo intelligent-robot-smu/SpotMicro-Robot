@@ -5,13 +5,17 @@ SpotMicro-Robot's report.
 
 ## What is Spot Micro Robot?  
 
-이성민
+
 
 
 ## 사용 도구 및 실행환경
 
 raspberry pi 2B
 
+
+## 하드웨어 부품
+
+3d 프린트 parts 뭐뭐 필요한지, 베터리, 서보 등 뭐뭐 필요한지 + 모델명
 
 
 ## 소프트웨어 설치
@@ -131,6 +135,9 @@ spot micro 오픈소스를 git에서 clone 하여 라즈베리파이에 다운�
 
 서보 1개 실행해본거 추가
 
+서보 연결 구성도
+
+서보 컨트롤 설명
 
 1. i2cpwm_board : ```rosrun i2cpwm_board i2cpwm_board``` 를 실행시킨다.
 
@@ -141,17 +148,13 @@ spot micro 오픈소스를 git에서 clone 하여 라즈베리파이에 다운�
 <img width="518" alt="3" src="https://user-images.githubusercontent.com/58153959/102410776-60b6c580-4034-11eb-84e8-18272cf93609.png" width="90%"></img>
 
 
-## 하드웨어 - 외관(3D 프린팅)
+## 조립
 
-뭐뭐필요한지..? + 조립
-
-
-## 하드웨어 - 부품
-
-서보, 베터리 같은 애들 필요한 목록 + 조립
 
 
 ## 로봇 4족보행 시키기 
+
+보행 메커니즘 설명
 
 
 
