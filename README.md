@@ -176,7 +176,7 @@ submodule을 업데이트한다는 서브모듈의 변경사항을 업데이트�
 
 build가 완료되면 다음과 같은 화면이 뜬다. 
 
-![sdfsd](https://user-images.githubusercontent.com/18053479/102469198-cedfa480-4095-11eb-9fbe-fae8a6fd9da0.jpg)
+<img width="500" alt="로그인창" src="https://user-images.githubusercontent.com/18053479/102469198-cedfa480-4095-11eb-9fbe-fae8a6fd9da0.jpg">
 
 
 
