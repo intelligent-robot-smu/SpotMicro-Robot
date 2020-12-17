@@ -123,8 +123,49 @@ spot micro 오픈소스를 git에서 clone 하여 라즈베리파이에 다운�
 
 
 즉 다음과 같은 폴더 하위구조가 생성되어있어야 한다. 
+이제 해당 repository의 서브모듈을 받아주어야한다. 
 
+
+**_git submodule?_**
+
+서브모듈이란 git repository 아래에 다른 하위 git repository를 관리하기 위한 도구이다. 두 프로젝트를 서로 별개로 다루면서 그 중 하나의 프로젝트를 다른 프로젝트에 사용해야할 때 merge가 어려운 이슈를 해결하기 위해 git submodule을 사용한다.
+```git submodule add [추가 저장소 URL]``` 와 같이 사용한다. 
+
+
+그럼 이제 src 폴더 내에서 다음 명령어를 입력한다. 
+
+    git submodule update --init --recursive
+    git submodule update --recursive
+
+submodule을 업데이트한다는 서브모듈의 변경사항을 업데이트한다는 뜻이다.
+이 때 permission denied와 같은 권한오류가 나타난다면
+.gitmodule 파일에 들어가서
+
+        url = git@github.com:webhat/example.git
+
+의 URL을 다음과 같이 변경한다. 
+
+        url = https://github.com/webhat/example.git
+    
+그래도 안된다면 
+
+.git/config
+.git/modules/example/config 이 두 파일도 똑같이 바꿔준다. 그 후
+
+    git submodule sync
+    git submodule init
+    git submodule update
+
+를 명령창에 입력한다. 
+
+이 에러는 git이 서버에서 repository를 다운도르할 때 공개키를 못찾아서 발생하는 것이다. 이 공개키를 찾기 위해 공개 URL로 바꿔주는 작업을 한 것이다. 
+
+    
 7. build
+
+```sudo apt-get install libi2c-dev```
+```catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release```
+```catkin build```
 
 빌드시 이미 build 폴더가 있다는 에러메세지가 나오면 작업공간을 clean 해준다. 
 
@@ -160,8 +201,6 @@ spot micro 오픈소스를 git에서 clone 하여 라즈베리파이에 다운�
 
 ## 원문
 [mike4192] - https://github.com/mike4192/spotMicro
-
-[catkin-tools] - https://catkin-tools.readthedocs.io/en
 
 
 ###  프로젝트 참여자 : 이해선, 이성민
