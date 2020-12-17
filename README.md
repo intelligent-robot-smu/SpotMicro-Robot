@@ -175,11 +175,18 @@ submodule을 업데이트한다는 서브모듈의 변경사항을 업데이트�
 
 ### 7. build
 
-```sudo apt-get install libi2c-dev```
+i2c 통신이란? GPIO를 제어하는데 쓰는 기술
 
-```catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release```
+GPIO : General Purposed IO. 일반적인 입출력을 제어할 수 있는 핀의 규약. 라즈베리파이에서 여러개의 핀들
 
-```catkin build```
+즉 i2c를 활용하여 GPIO를 제어하기 위해서는 libi2c를 설치해야한다.  
+
+```sudo apt-get install libi2c-dev``` 명령어를 통해 root폴더에서 libi2c를 설치한다. 
+
+
+```catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release``` catkin 작업공간의 구성을 다음과 같이 설정한다. 
+
+```catkin build``` 프로젝트를 빌드한다.
 
 빌드시 이미 build 폴더가 있다는 에러메세지가 나오면 작업공간을 clean 해준다. 
 
@@ -197,10 +204,13 @@ build가 완료되면 다음과 같은 화면이 뜬다.
 우선 예시로 1개의 서보를 실행시켜본다. 
 
 **_PWN?_**
-펄스의 폭을 조절하는 제어방법이다. 
+
+Pulse Width Modulation으로 펄스의 폭을 조절하여 주기를 제어하는 방법이다. 펄스가 0이 아닐 때 전기가 흘러 작동하는것이다. 펄스의 유지시간이 길면 계속 작동하고 펄스가 짧다면 유지시간이 짧아진다. 
 
 
 다음 표와 같이 라즈베리파이 보드와 서보모터를 연결한다. 
+GPIO : General Purposed IO. 일반적인 입출력을 제어할 수 있는 핀의 규약 
+
 |Pi GPOI pin|PCA9685|
 |---|---|
 |1|VCC|
