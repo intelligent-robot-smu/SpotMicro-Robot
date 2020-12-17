@@ -42,6 +42,8 @@ sd카드를 라즈베리파이에 삽입한다.
 모니터, HDMI, 마이크로 5핀, usb 마우스, 키보드 각각을 라즈베리파이 보드에 연결 후 부팅한다. 
 ubuntu 초기 비밀번호 : ubuntu 로 접속한다. 
 
+ROS가 포함된 파일을 받았기 때문에 뒤에 사용될 catkin_ws (catkin 작업 환경) 폴더가 있는것을 볼 수 있다. 
+
 3. 원격 접속
 
 4. swap memory
@@ -86,13 +88,36 @@ catkin 명령어로는
 
 ```$ sudo apt-get update```   운영체제에서 사용가능한 패키지들과 그 버전에 대한 정보를 업데이트한다. 즉 설치 가능한 리스트를 업데이트 한다. 
 
-```$ sudo apt-get install python-catkin-tools```
+```$ sudo apt-get install python-catkin-tools``` catkin-tools를 설치한다. 
 
 catkin-tools document : https://catkin-tools.readthedocs.io/en/latest/installing.html
 
-catkin-ws 폴더에서 
+catkin-tools를 사용하지 않고 ROS에 내장된 catkin_make를 사용할 경우 catkin-ws 폴더에서 다음 명령어를 사용한다. 
 
-```catkin_make -DCMAKE_BUILD_TYPE=Release```
+```catkin_make -DCMAKE_BUILD_TYPE=Release``` 
+
+6. source code download
+
+```git clone https://github.com/mike4192/spotMicro.git``` 
+
+spot micro 오픈소스를 git에서 clone 하여 라즈베리파이에 다운로드한다. 다운로드 후 폴더 내부의 모든 파일을 catkin_ws/src 폴더에 넣어준다. 
+
+    catkin_ws/
+    │
+    ├── src/
+    │   ├── spot_micro_motion_cmd
+    │   │   └── ...
+    │   ├── spot_micro_keyboard_cmd
+    │   │   └── ...  
+    │   └── ...
+
+
+즉 다음과 같은 폴더 하위구조가 생성되어있어야 한다. 
+
+7. build
+
+빌드시 이미 build 폴더가 있다는 에러메세지가 나오면 작업공간을 clean 해준다. 
+
 
 ## 서보 컨트롤
 
