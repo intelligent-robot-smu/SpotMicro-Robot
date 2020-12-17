@@ -15,12 +15,9 @@ raspberry pi 2B
 https://downloads.ubiquityrobotics.com/
 ROS가 설치된 Ubuntu 16.04 기반의 pi image이다. 
 
----
-
 **_ROS?_**
 개념 적기
 
----
 
 링크에서 2020-02-10-ubiquity-xenial-lxde 버전 pi image를 다운로드 한다. 
 
@@ -49,16 +46,15 @@ ubuntu 초기 비밀번호 : ubuntu 로 접속한다.
 
 4. swap memory
 
-
---------
 **_swap memory?_**
 
 윈도우의 가상메모리와 같은 개념이다. ram 대신 disk영역을 쓰는 것 이다. 라즈베리파이 램이 부족하기 때문에 프로그램 실행시 메모리 초과가 있을 때를 대비해 swap을 통해 늘려준다. 라즈베리파이 3 이하 모델에서 사용할 경우 성능이 크게 좋아진다. 
 but, 라즈베리파이의 sd카드 수명저하가 있을 수 있다.
 
---------
+부팅된 라즈베리파이에서 명령창을 켜고 다음 명령어를 입력한다. 
 
-```sudo dphys-swapfile swapoff```   일시적으로 스왑을 중지한다. 
+
+```sudo dphys-swapfile swapoff```   일시적으로 스왑을 중지한다. sudo로 명령어를 실행했기때문에 비밀번호를 입력해야한다. (ubuntu) 
 
 ```sudo nano /etc/dphys-swapfile```   와 같은 명령어로/etc/dphys-swapfile 파일에 들어가서 ```CONF_SWAPSIZE=1024``` 로 편집
 
@@ -66,9 +62,9 @@ but, 라즈베리파이의 sd카드 수명저하가 있을 수 있다.
 
 ```sudo dphys-swapfile swapon```    스왑을 시작한다. 
 
+
 5. install catkin-tools
 
----
 **_catkin?_**
 Catkin이란 rosbuild의 개선된 후속제품으로 ROS의 공식적인 Low level build system 이다. 
 
@@ -85,9 +81,10 @@ catkin 명령어로는
 
 ```$ catkin [global options] <verb> [verb arguments and options]``` 와 같은 형식으로 사용한다. 
 
----
 
-```$ sudo apt-get update```
+명령창에서 다음과 같은 명령어를 입력한다. 
+
+```$ sudo apt-get update```   운영체제에서 사용가능한 패키지들과 그 버전에 대한 정보를 업데이트한다. 즉 설치 가능한 리스트를 업데이트 한다. 
 
 ```$ sudo apt-get install python-catkin-tools```
 
