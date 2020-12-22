@@ -20,7 +20,44 @@ open source robot으로 4족보행로봇이다. 앉기, 서기, 각도제어, �
 
 ## 하드웨어 부품
 
-3d 프린트 parts 뭐뭐 필요한지, 베터리, 서보 등 뭐뭐 필요한지 + 모델명
+1. 3D Print
+   
+   * Cover(Head)
+   - Front_Cover
+   - Rear_Cover
+   
+   * Body
+   - Body_Cover_Bottom
+   - Body_Cover_Top
+   - Body_Cover_Rearblank
+   
+   * LEG
+   - Left_mid_arm
+   - Left_mid_arm_Cover
+   - Left_upper_arm
+   - Left_wrist
+   
+   - Right_mid_arm
+   - Right_mid_arm_Cover
+   - Right_upper_arm
+   - Right_wrist
+   
+   * Shoulder
+   - Front_shoulder_Inner
+   - Front_shoulder_Outer
+   - Rear_shoulder_Inner
+   - Rear_shoulder_Outer
+   
+   * RPI
+   - Chassis_Left
+   - Chassis_Right
+   - Chassis_PlateRPI
+   
+2. Battery
+
+    *
+
+3. Servo motor
 
 
 ## 소프트웨어 설치
