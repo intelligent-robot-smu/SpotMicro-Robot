@@ -20,18 +20,18 @@ open source robot으로 4족보행로봇이다. 앉기, 서기, 각도제어, �
 
 ## 하드웨어 부품
 
-###1. 3D Print
+### 1. 3D Print
    
-    **_Cover(Head)_**
+   **_Cover(Head)_**
    - Front_Cover
    - Rear_Cover
    
-   * Body
+   **_Body_**
    - Body_Cover_Bottom
    - Body_Cover_Top
    - Body_Cover_Rearblank
    
-   * LEG
+   **_LEG_**
    - Left_mid_arm
    - Left_mid_arm_Cover
    - Left_upper_arm
@@ -42,13 +42,13 @@ open source robot으로 4족보행로봇이다. 앉기, 서기, 각도제어, �
    - Right_upper_arm
    - Right_wrist
    
-   * Shoulder
+   **_Shoulder_**
    - Front_shoulder_Inner
    - Front_shoulder_Outer
    - Rear_shoulder_Inner
    - Rear_shoulder_Outer
    
-   * RPI
+   **_RPI_**
    - Chassis_Left
    - Chassis_Right
    - Chassis_PlateRPI
