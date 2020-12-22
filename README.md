@@ -20,9 +20,9 @@ open source robot으로 4족보행로봇이다. 앉기, 서기, 각도제어, �
 
 ## 하드웨어 부품
 
-1. 3D Print
+###1. 3D Print
    
-   * Cover(Head)
+    **_Cover(Head)_**
    - Front_Cover
    - Rear_Cover
    
