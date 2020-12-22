@@ -309,7 +309,7 @@ GPIO : General Purposed IO. 일반적인 입출력을 제어할 수 있는 핀�
 
 Spot Micro의 동작을 설명하는 *command*와 연관된 **state diagram**
 
-
+<img width="518" alt="3" src="https://user-images.githubusercontent.com/58153959/102852752-4761af00-4462-11eb-96cb-c549860ce022.JPG" width="90%"></img>
 
 
 
