@@ -53,12 +53,13 @@ open source robot으로 4족보행로봇이다. 앉기, 서기, 각도제어, �
    - Chassis_Right
    - Chassis_PlateRPI
    
-2. Battery
+### 2.Battery
 
-    *
+   - 
 
-3. Servo motor
+### 3. Servo motor
 
+   - MG996r
 
 ## 소프트웨어 설치
 
