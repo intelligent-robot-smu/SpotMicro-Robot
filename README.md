@@ -290,6 +290,16 @@ GPIO : General Purposed IO. 일반적인 입출력을 제어할 수 있는 핀�
 
 ## 조립
 
+### 전체적인 조립 구성도
+
+**1. Front
+<img width="518" alt="3" src="https://user-images.githubusercontent.com/58153959/102848107-5727c600-4457-11eb-800e-80fa957d3a6c.JPG" width="90%"></img>
+
+**2. Upper
+<img width="518" alt="3" src="https://user-images.githubusercontent.com/58153959/102848109-5858f300-4457-11eb-8402-a31906910bd1.JPG" width="90%"></img>
+
+**3. Whole
+<img width="518" alt="3" src="https://user-images.githubusercontent.com/58153959/102848110-5858f300-4457-11eb-8ee5-966c19021a5c.JPG" width="90%"></img>
 
 
 ## 로봇 4족보행 시키기 
