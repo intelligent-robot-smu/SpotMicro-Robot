@@ -307,7 +307,9 @@ GPIO : General Purposed IO. 일반적인 입출력을 제어할 수 있는 핀�
 
 ## 로봇 4족보행 시키기 
 
-Spot Micro robot을 움직이게 하기 위해서는 위의 **Keyboard control command**와 **Servo motor에 연결된 다리의 각도**와 관련이 있다.
+Spot Micro의 동작을 설명하는 *command*와 연관된 **state diagram**
+
+
 
 
 
