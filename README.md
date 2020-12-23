@@ -65,12 +65,15 @@ open source robot으로 4족보행로봇이다. 앉기, 서기, 각도제어, �
 https://downloads.ubiquityrobotics.com/
 ROS가 설치된 Ubuntu 16.04 기반의 pi image이다. 
 
-**_ROS?_**
+**_ROS란?_**
 
-개념 적기
+ROS는 **Robot Operating System**의 약자이다.
+직역하면 로봇운영시스템이라고는 하지만 OS가 아닌 로봇과 로봇 사이의 통신을 만들어주거나, 로봇과 센서의 통신을 이어주거나, 사람들의 코드(오픈소스)와 쉽게 연결(통신)시켜주는 도구를 의미한다.
+
+로봇을 전공하는 사람이라면 필수적으로 배워놔야 할 분야이며 ROS는 새로운 로봇생태계를 구축하고 있고, 최근 만들어진 많은 로봇이나 센서들은 반드시 ROS package가 제공된다.
 
 
-링크에서 2020-02-10-ubiquity-xenial-lxde 버전 pi image를 다운로드 한다. 
+*링크에서 2020-02-10-ubiquity-xenial-lxde 버전 pi image를 다운로드 한다. *
 
 **Window**
 
